@@ -10,9 +10,9 @@ Classe Joueur
 
 Instances :  
 
-      id_joueur 
+      id
 
-      nom  
+      name  
 
       score  
 
