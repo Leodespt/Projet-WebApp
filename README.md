@@ -6,19 +6,19 @@
 
 ===============================================================================
 
-Classe Joueur 
+Class Player 
 
 Instances :  
 
-      id
+      id_player
 
       name  
 
       score  
 
-      defi_actuel 
+      actual_challenge (None by default)
 
-      defi_realise (Liste de defi) 
+      passed_challenges (Liste de defi) - (None by default)
 
  
 Fonctions :   
@@ -26,7 +26,7 @@ Fonctions :
  
 ===============================================================================
 
-Classe Défi 
+Class Chanllenge 
 
 Instances :  
 
