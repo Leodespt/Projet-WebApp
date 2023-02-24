@@ -5,3 +5,7 @@ class Challenge():
         self.value = value
         self.category = category
         self.sobriety_score = sobriety_score
+
+    def extract_challenges(self, excel):
+        
+
