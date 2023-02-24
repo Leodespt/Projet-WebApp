@@ -32,7 +32,7 @@ Instances :
 
       id_challenge
       
-      challenge,
+      challenge
 
       value (nombre de points que rapporte le Défi)
 
