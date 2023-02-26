@@ -1,4 +1,4 @@
-from Challenge import Challenge
+from challenge import Challenge
 import Player
 import pandas as pd
 
