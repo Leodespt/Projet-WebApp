@@ -3,12 +3,9 @@ class Player():
         self.name = name
         self.score = score
         self.actual_challenge = actual_challenge
-        self.passed_challlenges = [] if passed_challenges is None else passed_challenges
-        self.passed_challlenges = passed_challenges
+        self.passed_challenges = [] if passed_challenges is None else passed_challenges
 
-
-    # Prend en parametre si oui ou non le bouton "Add player" a été touché
-    # Prend également en parametre le contenu du Input dans lequel le nom du joueur a été inscrit (name)
-    def add_player(name):
-        player = Player(name,0)
-        return player
+    # returns informations about a player though a string
+    def __repr__(self):
+        return "Name : {0}, Score : {1}, \nActual Challenge : {2}, \nPassed Challenges : {3}\n".format(self.name, self.score, self.actual_challenge, self.passed_challenges)
+        
