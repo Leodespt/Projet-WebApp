@@ -1,0 +1,1 @@
+# Page on which the players add player (the category of the game and the soberty score of the game)
