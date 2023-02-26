@@ -2,7 +2,7 @@ from challenge import Challenge
 import Player
 import pandas as pd
 
-
+"""
 if __name__ == '__main__':
 
     # Load Challenges and print them all in the console
@@ -11,4 +11,4 @@ if __name__ == '__main__':
     list_challenge = Challenge.challenge_to_instance(df)
     for challenge in list_challenge:
         print(challenge.__repr__())
-        
+   """     
