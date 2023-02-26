@@ -20,7 +20,6 @@ class Challenge():
         return df
 
     def challenge_to_instance(df):
-
         # Initialise an empty challenge list
         challenge_list = []
         # For each row/challenge in the dataframe
